@@ -1,0 +1,7 @@
+create database wildernessarchive;
+
+use wildernessarchive;
+
+CREATE TABLE weather_data (station_id varchar(16) NOT NULL, time DATETIME NOT NULL, air_pressure decimal(10,5), wind_speed int, air_temperature int, ground_temperature int, precipition int, humidity int, solar_radiation int, dew_point int, wind_direction VARCHAR(16), PRIMARY KEY (station_id,time));
+
+CREATE TABLE health_data (station_id varchar(16) NOT NULL, time DATETIME NOT NULL, battery_level int, station_status VARCHAR(8), battery_charging VARCHAR(8), barometer_sensor bool, anemometer_sensor bool, temperature_sensor bool, humidity_sensor bool, precipition_sensor bool, sunshine_sensor bool, visibility_sensor bool, wind_direction_sensor bool, clock_sensor bool, battery_sensor bool, PRIMARY KEY (station_id,time));

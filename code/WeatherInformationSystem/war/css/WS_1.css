@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+    width: 968px;
+    background: #FFF;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}

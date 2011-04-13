@@ -1,0 +1,43 @@
++ ---------------------------------------+
+| Useful resource for implementation	 |
++ ---------------------------------------+
+
+
++ GWT
++ ---------------------------------------
+ + Getting started
+   http://code.google.com/webtoolkit/doc/latest/tutorial/gettingstarted.html
+
+ + UIBinder
+   http://code.google.com/webtoolkit/doc/latest/DevGuideUiBinder.html
+
+ + JSON + GWT
+   http://code.google.com/webtoolkit/doc/latest/tutorial/JSON.html
+
+
++ RESTLet
++ ---------------------------------------
+  + Intro
+    http://www.restlet.org/documentation/1.1/tutorial
+  
+  + RESTLet +GWT eclipse demo
+    http://subversion.assembla.com/svn/project10/trunk/code/Restlet-demo/
+
+
++ Servlets  
++ ---------------------------------------
+ + Servlets with POST and GET
+   http://www.apl.jhu.edu/~hall/java/Servlet-Tutorial/Servlet-Tutorial-Form-Data.html
+
++ JPA and Database
++ ---------------------------------------------------------
+  + JPA example 
+    http://www.screaming-penguin.com/node/4441
+
++ Java Properties Files
++ ----------------------------------------------------------
+  + Simple example
+    http://www.mkyong.com/java/java-properties-file-examples/
+  
+  + More detailed tutorial
+    http://www.javaworld.com/javaworld/javaqa/2003-08/01-qa-0808-property.html

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+	<servlet>
+		<servlet-name>weatherinformation</servlet-name>
+		<jsp-file>/WEB-INF/jsp/weatherinformation.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<servlet-name>weatheroptions</servlet-name>
+		<jsp-file>/WEB-INF/jsp/weatheroptions.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<servlet-name>home</servlet-name>
+		<jsp-file>/WEB-INF/jsp/home.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<servlet-name>healthinformation</servlet-name>
+		<jsp-file>/WEB-INF/jsp/healthinformation.jsp</jsp-file>
+		<init-param>
+			<param-name>compilerSourceVM</param-name>
+			<param-value>1.5</param-value>
+		</init-param>
+		<init-param>
+			<param-name>compilerTargetVM</param-name>
+			<param-value>1.5</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet>
+		<servlet-name>healthoptions</servlet-name>
+		<jsp-file>/WEB-INF/jsp/healthoptions.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Remote Management</servlet-name>
+		<jsp-file>/WEB-INF/jsp/remotemanagement.jsp</jsp-file>
+	</servlet>
+
+	<!-- Controller -->
+	<servlet>
+		<servlet-name>Controller</servlet-name>
+		<servlet-class>org.weathersystem.weatherinformationsystem.server.WeatherInformationSystemController</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>weatherinformation</servlet-name>
+		<url-pattern>/weatherinformation</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>weatheroptions</servlet-name>
+		<url-pattern>/weatheroptions</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>home</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>healthinformation</servlet-name>
+		<url-pattern>/healthinformation</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>healthoptions</servlet-name>
+		<url-pattern>/healthoptions</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Remote Management</servlet-name>
+		<url-pattern>/remotemanagement</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Controller</servlet-name>
+		<url-pattern>/main</url-pattern>
+	</servlet-mapping>
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>WeatherInformationSystem.html</welcome-file>
+	</welcome-file-list>
+</web-app>
