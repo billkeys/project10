@@ -4,11 +4,8 @@ import java.util.Date;
 
 public class WeatherData {
 	private String stationId;
-	
 	private Date time;
-
 	private Double airPressure;
-
 	private Integer airTemperature;
 
 	private Integer dewPoint;
